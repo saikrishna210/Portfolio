@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body */
+body {
+  background-color: aquamarine;
+  color: #222;
+  line-height: 1.9;
+}
+
+/* Navigation */
+center a {
+  text-decoration: none;
+  color: #0078ff;
+  font-weight: 600;
+  font-size: 18px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+center a:hover {
+  color: #ff6600;
+  border-bottom: 2px solid #ff6600;
+}
+
+center {
+  margin-top: 20px;
+}
+
+/* Header Name */
+h1 {
+  font-size: 2.5rem;
+  color: #111;
+  margin: 20px 0;
+  letter-spacing: 1px;
+}
+
+/* Section Headings */
+h3 center {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #0078ff;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+/* Section Containers */
+h4, ul, form {
+  max-width: 900px;
+  margin: 0 auto 25px;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* Lists */
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Project Links */
+a {
+  color: #0078ff;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #ff6600;
+}
+
+/* Form */
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+  width: 80%;
+}
+
+form input {
+  width: 90%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  center a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  form {
+    width: 95%;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+}
+
+/* Hover Card Effect (for future improvements) */
+section, h4 {
+  transition: transform 0.3s ease;
+}
+
+section:hover, h4:hover {
+  transform: translateY(-3px);
+}
+
+
